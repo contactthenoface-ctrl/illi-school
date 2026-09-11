@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://contactthenoface-ctrl.github.io/illi-school/sitemap.xml

@@ -79,11 +79,13 @@ section{padding-block:88px;}
   padding-block:14px;
 }
 .brand{
-  display:flex;align-items:baseline;gap:8px;
+  display:flex;align-items:center;gap:8px;
   font-family:var(--serif);font-weight:700;font-size:1.4rem;
   color:var(--pine); text-decoration:none;
 }
 .brand .dot{color:var(--coral);}
+.brand-logo{height:34px;width:auto;display:block;}
+.brand-logo-footer{height:64px;width:auto;display:block;}
 nav.main-nav{display:flex;align-items:center;gap:28px;}
 nav.main-nav a{
   font-size:.95rem;text-decoration:none;color:var(--ink-soft);
@@ -127,7 +129,7 @@ nav.main-nav a:hover::after{transform:scaleX(1);}
   overflow:hidden;
 }
 .hero-media{position:absolute;inset:0;}
-.hero-media img{width:100%;height:100%;object-fit:cover;opacity:.88;}
+.hero-media img{width:100%;height:100%;object-fit:cover;object-position:center 25%;opacity:.88;}
 .hero-media::after{
   content:"";position:absolute;inset:0;
   background:linear-gradient(180deg, rgba(30,29,18,.15) 0%, rgba(24,23,14,.55) 62%, rgba(20,19,12,.86) 100%);
@@ -197,6 +199,7 @@ nav.main-nav a:hover::after{transform:scaleX(1);}
 .mosaic figure:nth-child(5){grid-column:span 3;grid-row:span 2;}
 .mosaic figure:nth-child(6){grid-column:span 3;grid-row:span 2;}
 .mosaic figure:nth-child(7){grid-column:span 6;grid-row:span 2;}
+.mosaic figure:nth-child(8){grid-column:span 6;grid-row:span 2;}
 .mosaic img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease;}
 .mosaic figure:hover img{transform:scale(1.045);}
 .mosaic figcaption{
@@ -209,7 +212,7 @@ nav.main-nav a:hover::after{transform:scaleX(1);}
   .mosaic figure, .mosaic figure:nth-child(1), .mosaic figure:nth-child(2),
   .mosaic figure:nth-child(3), .mosaic figure:nth-child(4),
   .mosaic figure:nth-child(5), .mosaic figure:nth-child(6),
-  .mosaic figure:nth-child(7){grid-column:span 1;grid-row:span 1;}
+  .mosaic figure:nth-child(7), .mosaic figure:nth-child(8){grid-column:span 1;grid-row:span 1;}
 }
 
 /* ---------- day timeline ---------- */
@@ -265,6 +268,8 @@ footer .brand{color:#F4F1E4;}
   border-top:1px solid rgba(228,230,211,.18);margin-top:34px;padding-top:18px;
   font-size:.8rem;color:#A9AE8E;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;
 }
+.foot-bottom a{color:#C9CDB4;text-decoration:underline;text-underline-offset:2px;}
+.foot-bottom a:hover{color:#F4F1E4;}
 
 /* Whatsapp floating button */
 .wa-float{

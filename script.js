@@ -17,7 +17,7 @@ const translations = {
     "hero.cta2": "Appeler l'école",
     "hero.chip1": "0–6 ans",
     "hero.chip2": "Bilingue français / arabe",
-    "hero.chip3": "Casablanca, Bourgogne",
+    "hero.chip3": "Casablanca, Belvédère",
 
     "approach.eyebrow": "Notre pédagogie",
     "approach.h2": "Le matériel avant le discours",
@@ -43,6 +43,7 @@ const translations = {
     "spaces.cap5": "Décor saisonnier, fait main avec les enfants",
     "spaces.cap6": "Sanitaires à hauteur d'enfant, hygiène guidée",
     "spaces.cap7": "Tables individuelles pour le travail concentré",
+    "spaces.cap8": "Cour extérieure : motricité et jeux de balle",
 
     "day.eyebrow": "Le quotidien",
     "day.h2": "Une journée type",
@@ -61,6 +62,7 @@ const translations = {
 
     "info.eyebrow": "Infos pratiques",
     "info.h2": "Horaires, adresse & inscription",
+    "info.lede": "À Belvédère, à quelques minutes de Racine, Gauthier, Roches Noires et Bourgogne.",
     "info.mf": "Lundi – Vendredi",
     "info.sat": "Samedi",
     "info.sun": "Dimanche",
@@ -80,7 +82,8 @@ const translations = {
     "footer.tagline": "Crèche & jardin d'enfants Montessori, bilingue français–arabe, à Casablanca.",
     "footer.contact": "Contact",
     "footer.follow": "Réseaux",
-    "footer.rights": "Tous droits réservés"
+    "footer.rights": "Tous droits réservés",
+    "footer.credit": "créé par Kamliseo"
   },
 
   en: {
@@ -97,7 +100,7 @@ const translations = {
     "hero.cta2": "Call the school",
     "hero.chip1": "Ages 0–6",
     "hero.chip2": "Bilingual French / Arabic",
-    "hero.chip3": "Casablanca, Bourgogne",
+    "hero.chip3": "Casablanca, Belvédère",
 
     "approach.eyebrow": "Our approach",
     "approach.h2": "Materials before words",
@@ -123,6 +126,7 @@ const translations = {
     "spaces.cap5": "Seasonal decor, made by hand with the children",
     "spaces.cap6": "Child-height bathroom, guided hygiene",
     "spaces.cap7": "Individual desks for focused work",
+    "spaces.cap8": "Outdoor yard: gross motor play and ball games",
 
     "day.eyebrow": "Daily life",
     "day.h2": "A typical day",
@@ -141,6 +145,7 @@ const translations = {
 
     "info.eyebrow": "Practical info",
     "info.h2": "Hours, address & enrolment",
+    "info.lede": "In Belvédère, just minutes from Racine, Gauthier, Roches Noires and Bourgogne.",
     "info.mf": "Monday – Friday",
     "info.sat": "Saturday",
     "info.sun": "Sunday",
@@ -160,7 +165,8 @@ const translations = {
     "footer.tagline": "A bilingual French–Arabic Montessori nursery and kindergarten in Casablanca.",
     "footer.contact": "Contact",
     "footer.follow": "Follow us",
-    "footer.rights": "All rights reserved"
+    "footer.rights": "All rights reserved",
+    "footer.credit": "made by Kamliseo"
   },
 
   ar: {
@@ -177,7 +183,7 @@ const translations = {
     "hero.cta2": "اتصل بالمدرسة",
     "hero.chip1": "من 0 إلى 6 سنوات",
     "hero.chip2": "ثنائية اللغة: فرنسية / عربية",
-    "hero.chip3": "الدار البيضاء، بورگونيا",
+    "hero.chip3": "الدار البيضاء، بلفيدير",
 
     "approach.eyebrow": "منهجنا",
     "approach.h2": "الأدوات أولاً، ثم الشرح",
@@ -203,6 +209,7 @@ const translations = {
     "spaces.cap5": "زينة موسمية، من صنع الأطفال أنفسهم",
     "spaces.cap6": "مرحاض على مقاس الطفل، ونظافة موجَّهة",
     "spaces.cap7": "طاولات فردية للعمل المركَّز",
+    "spaces.cap8": "الفناء الخارجي: الحركة واللعب بالكرات",
 
     "day.eyebrow": "الحياة اليومية",
     "day.h2": "يوم عادي في المدرسة",
@@ -221,6 +228,7 @@ const translations = {
 
     "info.eyebrow": "معلومات عملية",
     "info.h2": "التوقيت والعنوان والتسجيل",
+    "info.lede": "بحي بلفيدير، على بعد دقائق من راسين وغوتييه والروش نوار وبورگونيا.",
     "info.mf": "الاثنين – الجمعة",
     "info.sat": "السبت",
     "info.sun": "الأحد",
@@ -240,7 +248,8 @@ const translations = {
     "footer.tagline": "حضانة وروض أطفال مونتيسوري، ثنائي اللغة (فرنسية-عربية)، بالدار البيضاء.",
     "footer.contact": "تواصل",
     "footer.follow": "تابعونا",
-    "footer.rights": "جميع الحقوق محفوظة"
+    "footer.rights": "جميع الحقوق محفوظة",
+    "footer.credit": "من إنجاز Kamliseo"
   }
 };
 
